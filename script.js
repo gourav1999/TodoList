@@ -23,6 +23,8 @@ function showNotes() {
   if (notes == null) {
     notesObj = [];
   } else {
+
+    
     notesObj = JSON.parse(notes);
   }
   let html = "";
